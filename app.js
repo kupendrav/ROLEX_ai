@@ -90,5 +90,5 @@ function readOut(message){
 }
 
 speakBtn.addEventListener("click",() => {
-  readOut("hello, faizan!");
+  readOut("good afternoon sir!");
 });
