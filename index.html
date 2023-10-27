@@ -5,15 +5,70 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>R O L E X</title>
+  <link rel="shortcut icon" href="/assets/img/iranpng-removebg-preview.png" type="image/x-icon">
  </head>
  <body>
-  <h1>
+  <audio src="./assets/audio/power up.mp3" id="turn_on"></audio>
+  <div class="machine">
+    <div class="clock count">
+    <img src="./assets/img/icons8-clock.gif" alt="" class="icon">
+    <p id="time"></p>
+  </div>
+  <div class="internet count">
+    <img src="./assets/img/icons8-wifi.gif" alt="" class="icon">
+    <p id="internet"></p>
+  </div>
+  <div class="battery count">
+    <img src="./assets/img/icons8-battery.gif" alt="" class="icon">
+    <p id="battery"></p>
+
+  </div>
+    <div class="data">
+      <img src="./assets/img/dataanaly.gif" alt="">
+      <p id="data"></p>
+  </div> 
+  
+  <img src="./assets/img/iron.gif" alt="" id="heart">
+<img src="./assets/img/heart.gif" alt="" id="iron_man">
+
+</div>
+ <div id="start_rolex_btn" title="START ROLEX">
+  <img src="./assets/img/super.gif" alt="">
+</div>  
+  <!-- <h1>
     Hello, we are building R O L E X
-  </h1>
-  <!-- weather -->
-  <button id="start">start</button>
-  <button id="end">end</button>
-  <button id="speak">Speak out</button>
+  </h1> -->  
+
+<!-- userinfo -->
+<div class="rolex_setup in_middle hide_on_small">
+  <label for="">Your Name</label>
+  <input type="text">
+  <br>
+  <label for="">Your Bio</label>
+  <input type="text">
+  <br>
+  <label for=""> Github profile</label>
+  <input type="text">
+  <br>
+  <label for="">Twitter profile</label>
+  <input type="text">
+  <br>
+  <label for="">linkedin profile</label>
+  <input type="text">
+  <br>
+  <br>
+  <button id="sub-btn">Submit</button>
+</div> 
+<div   class="messages"></div>
+<div class="commands in_middle"></div> 
+
+  <button id="start" style="display: none;">start</button>
+  <button id="end" style="display: none;">end</button>
+  <button id="speak" style="display: none;">Speak out</button>
+
+  <div class="new_rolex_window">
+    <img src="./assets/img/blueiron.gif" height="230" id="jarvis_start">
+  </div>
  <script src="app.js"></script>
  </body>
  </html>

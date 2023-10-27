@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: rgb(10, 9, 9);
+  position: fixed;
+  font-family: 'Nanum Gothic Coding', monospace;
+  user-select: none;
+  /* background-color: black; */
+}
+
+label{
+  color: crimson;
+  text-align: left;
+}
+
+input{
+  height: 5vh;
+  color: rgb(105, 5, 5);
+  border: none;
+  /* border-bottom: 2px solid black; */
+  width: 60vw;
+}
+#sub-btn{
+  background-color: #484848;
+  background-image: linear-gradient(43deg, #484848 0%, #00e2f6 22%, #cd1315 49%);
+  color: white;  
+  width: 80px;
+  padding: 10px 5px;
+  outline: none;
+  border: none;
+  border-radius: 10%;
+
+}
+.machine{
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  user-select: none;
+}
+.machine *{
+  position: absolute;
+}
+#heart{
+  bottom: 0;
+  right: 0;
+}
+#iron_man{
+  bottom: 0;
+  left: 0;
+}
+/* time css to be done */
+ .in_middle{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  padding: 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 10000;
+  align-items: center;
+  border:3px solid lightseagreen;
+  line-height: 2;
+  /* gap: 1vh; */
+  /* height: 50vh; */
+  /* overflow-y: scroll; */
+}
+.in_middle *{
+  position: static;
+}
+.in_middle ::-webkit-scrollbar{
+    display: none;
+}
+.in_middle ::-webkit-scrollbar-track{
+    border-radius: 10px;
+}
+.in_middle ::-webkit-scrollbar-thumb{
+  background-color: #cd1315;
+  border-radius: 10px;
+} 
+
+.icon{
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  padding: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+.count *{
+  position: static;
+  
+}
+
+.count{
+  top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.battery{
+  left: 50%;
+  top: 0px;
+  gap: 10px;
+  /* width: 200px; */
+  /* transform:translate(-50%) ; */
+}
+.data{
+  left: 56vw;
+}
+.clock{
+  width: 6vw;
+  top: 3vh;
+  left: 3vh;
+  gap: 10px;
+}
+
+.internet{
+  top: 11vh;
+  width: 6vw;
+  gap: 10px;
+  left: 2.5vh;
+}
+.messages{
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 30vw;
+  height: 20vh;
+  
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+   flex-direction:column-reverse;
+  align-items: flex-end;
+  justify-content:center; 
+  padding-bottom: 15px;
+  z-index: 1000;
+  font-size: 1em;
+}
+.messages::-webkit-scrollbar{
+  display: none;
+}
+.usermsg , .jmsg{
+  margin: 5px 0;
+  display: flex;
+  overflow: visible;
+}
+.usermsg{
+  text-align: right;
+  width: 10vw;
+  color: #00e2f6;
+  max-height: 4em;
+  margin-bottom: -4em;
+}
+.jmsg{
+  text-align: left;
+  margin-top: 5px;
+  width: 20vw; 
+  color: #cd1315;
+  max-height: 4em;
+}
+
+.commands{
+  display: none;
+  background-color: white;
+}
+
+.commands p {
+  color: darkred;
+}
+#start_rolex_btn{
+  border: none;
+  outline: none;
+  position: fixed;
+  /* left: 10px; */
+  transform: translateX(0);
+  top: 20vh;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+#start_rolex_btn img{
+  height: 40vh;
+}
+.new_rolex_window{
+  display: none;
+}
+@media (max-width:300px) {
+  .hide_on_small{
+    display: none;
+  }
+  .new_rolex_window{
+    display: block;
+  }
+  #start_rolex_btn{
+    display: none;
+  }
+}
