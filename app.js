@@ -156,10 +156,16 @@ setInterval(() => {
 }, 6000);
 
 
-
   }
-// }
+// power up rolex
+let play = document.getElementById("heart");
+function playMusic() {
+  let audio = new Audio("assets/audio/Jarvis.mp3");
+  audio.play()
 
+}
+
+play.addEventListener("click", playMusic);
 //result
  recognition.onresult = function(event){
   let current = event.resultIndex;
