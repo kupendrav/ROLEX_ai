@@ -191,7 +191,17 @@ input{
 .new_rolex_window{
   display: none;
 }
-@media (max-width:300px) {
+@media (max-width:320px) {
+  *{
+    display: none;
+  }
+  #heart{
+    object-fit: cover;
+    align-items: center;
+  justify-content: center;
+    width: 80vw;
+    height: 70vw;
+  }
   .hide_on_small{
     display: none;
   }
