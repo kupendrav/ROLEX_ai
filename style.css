@@ -23,8 +23,8 @@ input{
   width: 18rem;
 }
 #sub-btn{
-  background-color: #484848;
-  background-image: linear-gradient(43deg, #484848 0%, #00e2f6 22%, #cd1315 49%);
+  /* background-color: #484848; */
+  background-image: linear-gradient(45deg, #484848 0%, #00e2f6 22%, #cd1315 49%);
   color: white;  
   width: 5rem;
   padding: 0.5rem 1rem;
@@ -126,11 +126,11 @@ input{
   left: 2rem;
 }
 .messages{
-  bottom: 0;
-  left: 50%;
+  bottom: 1rem;
+  left: 30rem;
   transform: translate(-50%,0);
-  width: 30vw;
-  height: 20vh;
+  width: 35rem;
+  height: 15rem;
   
   overflow: auto;
   white-space: nowrap;
@@ -138,31 +138,32 @@ input{
    flex-direction:column-reverse;
   align-items: flex-end;
   justify-content:center; 
-  padding-bottom: 15px;
-  z-index: 1000;
-  font-size: 1em;
+  padding-bottom: 2rem;
+  /* z-index: 1000; */
+  font-size: 1rem;
 }
 .messages::-webkit-scrollbar{
   display: none;
 }
 .usermsg , .jmsg{
-  margin: 5px 0;
+  position: relative;
+  /* margin: 5px 0; */
   display: flex;
   overflow: visible;
 }
 .usermsg{
   text-align: right;
-  width: 10vw;
+  width: 10rem;
   color: #00e2f6;
-  max-height: 4em;
-  margin-bottom: -4em;
+  max-height: 4rem;
+  margin-bottom:-2rem;
 }
 .jmsg{
   text-align: left;
-  margin-top: 5px;
-  width: 20vw; 
+  margin-top: 5rem;
+  width: 20rem; 
   color: #cd1315;
-  max-height: 4em;
+  max-height: 4rem;
 }
 
 .commands{
