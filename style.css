@@ -88,7 +88,7 @@ input{
   width: 2.5rem;
   object-fit: cover;
   padding: 1rem;
-  background-color: white;
+  /* background-color: white; */
   border-radius: 50%;
 }
 .count *{
@@ -192,12 +192,12 @@ input{
 .new_rolex_window{
   display: none;
 }
-@media (max-width:320px) {
+@media (max-width:480px) {
    #heart{
     object-fit: cover;
     align-items: center;
   justify-content: center;
-  right: -12rem;
+  right: -9rem;
     /* width: -3rem; */
     height:31rem;
   }
