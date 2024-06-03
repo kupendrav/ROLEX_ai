@@ -193,15 +193,13 @@ input{
   display: none;
 }
 @media (max-width:320px) {
-  *{
-    display: none;
-  }
-  #heart{
+   #heart{
     object-fit: cover;
     align-items: center;
   justify-content: center;
-    width: 80vw;
-    height: 70vw;
+  right: -12rem;
+    /* width: -3rem; */
+    height:31rem;
   }
   .hide_on_small{
     display: none;
@@ -210,6 +208,15 @@ input{
     display: block;
   }
   #start_rolex_btn{
+    display: none;
+  }
+  .rolex_setup {
+    display: none;
+  }
+  #iron_man{
+    display: none;
+  }
+  #jarvis_start{
     display: none;
   }
 }
