@@ -208,7 +208,11 @@ input{
     display: block;
   }
   #start_rolex_btn{
-    display: none;
+    /* object-fit: cover; */
+    width: 2rem;
+    height: 6rem;
+    top: 1rem;
+    left: 10rem;
   }
   .rolex_setup {
     display: none;
