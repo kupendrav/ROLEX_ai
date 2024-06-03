@@ -97,33 +97,33 @@ input{
 }
 
 .count{
-  top: 10px;
+  top: 5rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .battery{
-  left: 50%;
-  top: 0px;
-  gap: 10px;
+  left: 2rem;
+  top: 1rem;
+  gap: 1rem;
   /* width: 200px; */
   /* transform:translate(-50%) ; */
 }
 .data{
-  left: 56vw;
+  left: 55rem;
 }
 .clock{
-  width: 6vw;
-  top: 3vh;
-  left: 3vh;
-  gap: 10px;
+  width: 6rem;
+  top: 4rem;
+  left: 2rem;
+  gap: 1rem;
 }
 
 .internet{
-  top: 11vh;
-  width: 6vw;
+  top: 7rem;
+  width: 6rem;
   gap: 10px;
-  left: 2.5vh;
+  left: 2rem;
 }
 .messages{
   bottom: 0;
