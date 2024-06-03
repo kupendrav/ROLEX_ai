@@ -369,11 +369,11 @@ stopBtn.addEventListener('click', () => {
 function readOut(message){
   const speech = new SpeechSynthesisUtterance();
   // diff voice
-  const allVoices = speechSynthesis.getVoices()
-  speech.text = message;
+  const allVoices = speechSynthesis.getVoices(2)
+    speech.text = message;
   // speech.text = ' helo';
-  speech.voice = allVoices[8]
-  speech.volume = 6;
+  speech.voice = allVoices[0]
+  speech.volume = 122;
 
   // window.speechSynthesis.speak(speech)
 

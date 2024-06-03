@@ -16,25 +16,25 @@ label{
 }
 
 input{
-  height: 5vh;
-  color: rgb(105, 5, 5);
+  height: 2rem;
+  color: rgb(11, 11, 11);
   border: none;
   /* border-bottom: 2px solid black; */
-  width: 60vw;
+  width: 18rem;
 }
 #sub-btn{
   background-color: #484848;
   background-image: linear-gradient(43deg, #484848 0%, #00e2f6 22%, #cd1315 49%);
   color: white;  
-  width: 80px;
-  padding: 10px 5px;
+  width: 5rem;
+  padding: 0.5rem 1rem;
   outline: none;
   border: none;
-  border-radius: 10%;
+  border-radius: 1rem;
 
 }
 .machine{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   height: 100vh;
   width: 100vw;
   user-select: none;
